@@ -50,21 +50,16 @@ public class UserValidation {
     public static void main(String[] args) {
         System.out.println("Welcome to User Validation");
         Scanner sc = new Scanner(System.in);
+        UserValidation userValidation = new UserValidation();
         System.out.println("Enter First name ");
-        String fname = sc.nextLine();
-        System.out.println(fname + ":" + isValidName(fname));
+        System.out.println(userValidation.isValidName(sc.nextLine()));
         System.out.println("Enter Last name ");
-        String lname = sc.nextLine();
-        System.out.println(lname + ":" + isValidName(lname));
+        System.out.println(userValidation.isValidName(sc.nextLine()));
         System.out.println("Enter Phone number ");
-        String phno = sc.nextLine();
-        System.out.println(phno + ":" + isValidPHno(phno));
+        System.out.println(userValidation.isValidName(sc.nextLine()));
         System.out.println("Enter the EMAIL");
-        String email = sc.nextLine();
-        System.out.println(email + ":" + isValidEmail(email));
+        System.out.println(userValidation.isValidEmail(sc.nextLine()));
         System.out.println("Enter Password ");
-        String pass = sc.nextLine();
-        System.out.println(pass + ":" + isValidPass(pass));
-
+        System.out.println(userValidation.isValidPass(sc.nextLine()));
     }
 }
