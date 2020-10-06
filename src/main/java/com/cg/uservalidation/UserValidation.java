@@ -47,6 +47,12 @@ public class UserValidation {
         Matcher m = p.matcher(pass);
         return m.matches();
     }
+    public String happyOrSad(String message) {
+        if (message.contains("sad"))
+            return "sad";
+        else
+            return "happy";
+    }
     public static void main(String[] args) {
         System.out.println("Welcome to User Validation");
         Scanner sc = new Scanner(System.in);
@@ -61,5 +67,6 @@ public class UserValidation {
         System.out.println(userValidation.isValidEmail(sc.nextLine()));
         System.out.println("Enter Password ");
         System.out.println(userValidation.isValidPass(sc.nextLine()));
+        System.out.println(userValidation.happyOrSad(sc.nextLine()));
     }
 }
