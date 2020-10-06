@@ -19,5 +19,9 @@ public class UserValidation {
 
     public static void main(String[] args) {
         System.out.println("Welcome to User Validation");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter First name ");
+        String fname = sc.nextLine();
+        System.out.println(fname + ":" + isValidName(fname));
     }
 }
