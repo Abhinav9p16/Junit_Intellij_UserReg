@@ -39,7 +39,7 @@ public class UserValidation {
         return m.matches();
     }
     public static boolean isValidPass(String pass){
-        String regex =   "^(?=.*[0-9])" + ".{8,}$";
+        String regex =   "^(?=.*[0-9])" + "(?=.*[a-z])(?=.*[A-Z])" + ".{8,}$";
         Pattern p = Pattern.compile(regex);
         if (pass == null) {
             return false;
