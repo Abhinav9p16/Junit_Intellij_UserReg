@@ -38,6 +38,15 @@ public class UserValidation {
         Matcher m = p.matcher(email);
         return m.matches();
     }
+    public static boolean isValidPass(String pass){
+        String regex =   "^(?=.*[0-9])" + ".{8,}$";
+        Pattern p = Pattern.compile(regex);
+        if (pass == null) {
+            return false;
+        }
+        Matcher m = p.matcher(pass);
+        return m.matches();
+    }
     public static void main(String[] args) {
         System.out.println("Welcome to User Validation");
         Scanner sc = new Scanner(System.in);
@@ -49,10 +58,13 @@ public class UserValidation {
         System.out.println(lname + ":" + isValidName(lname));
         System.out.println("Enter Phone number ");
         String phno = sc.nextLine();
-        System.out.println(phno + ":" + isValidPHno(phno))
+        System.out.println(phno + ":" + isValidPHno(phno));
         System.out.println("Enter the EMAIL");
         String email = sc.nextLine();
         System.out.println(email + ":" + isValidEmail(email));
+        System.out.println("Enter Password ");
+        String pass = sc.nextLine();
+        System.out.println(pass + ":" + isValidPass(pass));
 
     }
 }
