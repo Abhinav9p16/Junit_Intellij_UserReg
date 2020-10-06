@@ -27,7 +27,17 @@ public class UserValidation {
         Matcher m = p.matcher(num);
         return m.matches();
     }
-
+    public static boolean isValidEmail(String email) {
+        // Regex to check valid email
+        String regex = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
+                + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+){0,1}(\\.[A-Za-z]{2,})$";
+        Pattern p = Pattern.compile(regex);
+        if (email == null) {
+            return false;
+        }
+        Matcher m = p.matcher(email);
+        return m.matches();
+    }
     public static void main(String[] args) {
         System.out.println("Welcome to User Validation");
         Scanner sc = new Scanner(System.in);
@@ -40,6 +50,9 @@ public class UserValidation {
         System.out.println("Enter Phone number ");
         String phno = sc.nextLine();
         System.out.println(phno + ":" + isValidPHno(phno))
+        System.out.println("Enter the EMAIL");
+        String email = sc.nextLine();
+        System.out.println(email + ":" + isValidEmail(email));
 
     }
 }
