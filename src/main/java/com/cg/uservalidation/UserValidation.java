@@ -16,6 +16,17 @@ public class UserValidation {
         Matcher m = p.matcher(name);
         return m.matches();
     }
+    public static boolean isValidPHno(String num) {
+        // Regex to check valid pin code of India.
+        String regex = "^(91)\\s{1}[1-9]{1}[0-9]{9}$";
+
+        Pattern p = Pattern.compile(regex);
+        if (num == null) {
+            return false;
+        }
+        Matcher m = p.matcher(num);
+        return m.matches();
+    }
 
     public static void main(String[] args) {
         System.out.println("Welcome to User Validation");
@@ -26,5 +37,9 @@ public class UserValidation {
         System.out.println("Enter Last name ");
         String lname = sc.nextLine();
         System.out.println(lname + ":" + isValidName(lname));
+        System.out.println("Enter Phone number ");
+        String phno = sc.nextLine();
+        System.out.println(phno + ":" + isValidPHno(phno))
+
     }
 }
