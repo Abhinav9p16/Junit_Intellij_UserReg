@@ -1,24 +1,2 @@
-$Parameterized email : abc@gmail.com
-(Parameterized email : abc-100@gmail.com
-(Parameterized email : abc.100@gmail.com
-%Parameterized email : abc111@abc.com
-&Parameterized email : abc-100@abc.net
- +Parameterized email : abc.100@gmail.com.au
-& Parameterized email : abc@1.com
-,(Parameterized email : abc@gmail.com.com
-2(Parameterized email : abc+100@gmail.com
-8(Parameterized email : abc+100@gmail.com
->Parameterized email : abc
-D"Parameterized email : abc@.com.my
-J%Parameterized email : abc123@gmail.a
-P"Parameterized email : abc123@.com
-V&Parameterized email : abc123@.com.com
-\#Parameterized email : .abc@abc.com
-b%Parameterized email : abc()*@abc.com
-h#Parameterized email : .abc@!#$.com
-n(Parameterized email : abc..2002@abc.com
-t#Parameterized email : abc.@abc.com
-z&Parameterized email : abc@abc@abc.com
-€#Parameterized email : .abc@abc.com
-†%Parameterized email : abc@abc.com.1a
-Œ(Parameterized email : abc@abc.com.aa.au
+Valid Email
+Valid mobile phone
