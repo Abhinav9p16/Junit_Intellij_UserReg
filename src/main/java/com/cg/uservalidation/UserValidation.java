@@ -4,54 +4,64 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-class InvalidDetailsException extends Exception {
-    public InvalidDetailsException() {
+class InvalidException extends Exception {
+    public InvalidException() {
     }
 }
 public class UserValidation {
-    public static boolean isValidName(String name) {
+
+    @FunctionalInterface
+    interface Validate {
+        boolean isVal(String str);
+    }
+
+    public boolean valOp(String str, Validate val){
+        return val.isVal(str);
+    }
+
+    public static Validate isValidName = (String str) -> {
         try {
-            if (!Pattern.matches("[A-Z]{1}[a-z]{2,}", name)) {
-                throw new InvalidDetailsException();
+            if (!Pattern.matches("[A-Z]{1}[a-z]{2,}", str)) {
+                throw new InvalidException();
             } else {
-                System.out.println("Valid");
+                System.out.println(str + " is a Valid name");
                 return true;
             }
-        } catch (InvalidDetailsException e) {
+        } catch (InvalidException e) {
             return false;
         }
-    }
-    public static boolean isValidPHno(String num) {
+    };
+    public static Validate isValidPHno = (String str) -> {
         try {
-            if (Pattern.matches("^(91)\\s{1}[1-9]{1}[0-9]{9}$", num)) {
-                System.out.println("Valid mobile phone");
+            if (Pattern.matches("^(91)\\s{1}[1-9]{1}[0-9]{9}$", str)) {
+                System.out.println("PHno is Valid");
                 return true;
             } else {
-                throw new InvalidDetailsException();
+                throw new InvalidException();
             }
-        } catch (InvalidDetailsException e) {
+        } catch (InvalidException e) {
             return false;
         }
-    }
-    public static boolean isValidEmail(String email) {
+    };
+    public static Validate isValidEmail = (String str) -> {
         try {
             if (Pattern.matches("[\\w]{1,}([.][a-zA-Z0-9]{1,})*([-][a-zA-Z0-9]{1,})*([+][a-zA-Z0-9]{1,})*[@]{1}[a-zA-Z0-9]{1,}[.]{1}[a-zA-Z]{2,}([.][a-zA-Z]{2,})?",
-                    email)) {
+                    str)) {
                 System.out.println("Valid Email");
                 return true;
             } else {
-                throw new InvalidDetailsException();
+                throw new InvalidException();
             }
-        } catch (InvalidDetailsException e) {
+        } catch (InvalidException e) {
             return false;
         }
-    }
-    public static boolean isValidPass(String pass){
+    };
+    public static Validate isValidPass = (String str) -> {
         try {
-            if (Pattern.matches("(.*[A-Z].*)", pass) && Pattern.matches("[\\S]{8,}", pass) && Pattern.matches("(.*[0-9].*)", pass)) {
+            if (Pattern.matches("(.*[A-Z].*)", str) && Pattern.matches("[\\S]{8,}", str) && Pattern.matches("(.*[0-9].*)", str)) {
                 String p = "[\\W]";
                 Pattern r = Pattern.compile(p);
-                Matcher m = r.matcher(pass);
+                Matcher m = r.matcher(str);
                 int count = 0;
                 while (m.find()) {
                     count++;
@@ -61,31 +71,17 @@ public class UserValidation {
                     return true;
                 }
             }
-            throw new InvalidDetailsException();
-        } catch (InvalidDetailsException e) {
+            throw new InvalidException();
+        } catch (InvalidException e) {
             return false;
         }
-    }
-    public String happyOrSad(String message) {
-        if (message.contains("sad"))
-            return "sad";
-        else
-            return "happy";
-    }
+    };
+
     public static void main(String[] args) {
         System.out.println("Welcome to User Validation");
         Scanner sc = new Scanner(System.in);
-        UserValidation userValidation = new UserValidation();
-        System.out.println("Enter First name ");
-        System.out.println(userValidation.isValidName(sc.nextLine()));
-        System.out.println("Enter Last name ");
-        System.out.println(userValidation.isValidName(sc.nextLine()));
-        System.out.println("Enter Phone number ");
-        System.out.println(userValidation.isValidPHno(sc.nextLine()));
-        System.out.println("Enter the EMAIL");
-        System.out.println(userValidation.isValidEmail(sc.nextLine()));
-        System.out.println("Enter Password ");
-        System.out.println(userValidation.isValidPass(sc.nextLine()));
-        System.out.println(userValidation.happyOrSad(sc.nextLine()));
+        UserValidation user = new UserValidation();
+        user.valOp("Abhinav",isValidName);
+
     }
 }

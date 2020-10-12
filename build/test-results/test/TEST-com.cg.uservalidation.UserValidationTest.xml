@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cg.uservalidation.UserValidationTest" tests="110" skipped="0" failures="0" errors="0" timestamp="2020-10-12T11:28:45" hostname="ABHINAVs-MacBook-Air.local" time="0.156">
+  <properties/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[0]" classname="com.cg.uservalidation.UserValidationTest" time="0.007"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[0]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[0]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[0]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[0]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[1]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[1]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[1]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[1]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[1]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[2]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[2]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[2]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[2]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[2]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[3]" classname="com.cg.uservalidation.UserValidationTest" time="0.002"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[3]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[3]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[3]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[3]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[4]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[4]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[4]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[4]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[4]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[5]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[5]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[5]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[5]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[5]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[6]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[6]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[6]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[6]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[6]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[7]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[7]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[7]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[7]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[7]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[8]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[8]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[8]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[8]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[8]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[9]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[9]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[9]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[9]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[9]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[10]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[10]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[10]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[10]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[10]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[11]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[11]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[11]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[11]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[11]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[12]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[12]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[12]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[12]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[12]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[13]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[13]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[13]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[13]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[13]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[14]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[14]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[14]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[14]" classname="com.cg.uservalidation.UserValidationTest" time="0.004"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[14]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[15]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[15]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[15]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[15]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[15]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[16]" classname="com.cg.uservalidation.UserValidationTest" time="0.003"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[16]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[16]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[16]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[16]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[17]" classname="com.cg.uservalidation.UserValidationTest" time="0.002"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[17]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[17]" classname="com.cg.uservalidation.UserValidationTest" time="0.002"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[17]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[17]" classname="com.cg.uservalidation.UserValidationTest" time="0.002"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[18]" classname="com.cg.uservalidation.UserValidationTest" time="0.029"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[18]" classname="com.cg.uservalidation.UserValidationTest" time="0.002"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[18]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[18]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[18]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[19]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[19]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[19]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[19]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[19]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[20]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[20]" classname="com.cg.uservalidation.UserValidationTest" time="0.002"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[20]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[20]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[20]" classname="com.cg.uservalidation.UserValidationTest" time="0.002"/>
+  <testcase name="givenEmail_whenEntered_shouldReturnValidation[21]" classname="com.cg.uservalidation.UserValidationTest" time="0.003"/>
+  <testcase name="givenPassword_whenEntered_shouldReturnValidation[21]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEntered_shouldReturnValidation[21]" classname="com.cg.uservalidation.UserValidationTest" time="0.001"/>
+  <testcase name="givenMobile_whenEntered_shouldReturnValidation[21]" classname="com.cg.uservalidation.UserValidationTest" time="0.002"/>
+  <testcase name="givenFirstName_whenEntered_shouldReturnValidation[21]" classname="com.cg.uservalidation.UserValidationTest" time="0.0"/>
+  <system-out><![CDATA[Parameterized email : abc@gmail.com
+Valid Email
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc-100@gmail.com
+Valid Email
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc.100@gmail.com
+Valid Email
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc111@abc.com
+Valid Email
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc-100@abc.net
+Valid Email
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc.100@gmail.com.au
+Valid Email
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc@1.com
+Valid Email
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc@gmail.com.com
+Valid Email
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc@.com.my
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc123@gmail.a
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc123@.com
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc123@.com.com
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : .abc@abc.com
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc()*@abc.com
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : .abc@!#$.com
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc..2002@abc.com
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc.@abc.com
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc@abc@abc.com
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : .abc@abc.com
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc@abc.com.1a
+PHno is Valid
+Abhinav is a Valid name
+Parameterized email : abc@abc.com.aa.au
+PHno is Valid
+Abhinav is a Valid name
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

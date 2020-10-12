@@ -1,31 +1,28 @@
 package com.cg.uservalidation;
 import org.junit.Assert;
 import org.junit.Test;
+import com.cg.uservalidation.UserValidation;
  class TestException {
-    UserValidation userValidation= new UserValidation();
+    UserValidation user= new UserValidation();
     @Test
     public void givenFirstName_whenEntered_shouldReturnValidation(){
-        Assert.assertFalse(userValidation.isValidName("abhinav"));
+        Assert.assertTrue(user.valOp("Abhinav",user.isValidName));
     }
     @Test
     public void givenLastName_whenEntered_shouldReturnValidation(){
-        Assert.assertFalse(userValidation.isValidName("thakur"));
+        Assert.assertFalse(user.valOp("thakur",user.isValidName));
     }
     @Test
     public void givenMobile_whenEntered_shouldReturnValidation(){
-        Assert.assertTrue(userValidation.isValidPHno("91 9013341138"));
+        Assert.assertTrue(user.valOp("91 9013341138", user.isValidPHno));
     }
     @Test
     public void givenEmail_whenEntered_shouldReturnValidation(){
-        Assert.assertTrue(userValidation.isValidEmail("thakurabhinav56@gmail.com"));
+        Assert.assertTrue(user.valOp("thakurabhinav56@gmail.com",user.isValidEmail));
     }
     @Test
     public void givenPassword_whenEntered_shouldReturnValidation(){
-        Assert.assertFalse(userValidation.isValidPass("Abhinav@@901"));
-    }
-    @Test
-    public void givenString_whenEntered_shouldReturnSad(){
-        Assert.assertEquals("sad",userValidation.happyOrSad("sad"));
+        Assert.assertFalse(user.valOp("Abhinav@@901",user.isValidPass));
     }
 }
 
